@@ -12,6 +12,4 @@ else
   echo "✅ Tous les processus Brave ont été terminés."
 fi
 
-echo
-read -p \"Appuyez sur Entrée pour quitter...\"
 '
