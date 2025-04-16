@@ -24,7 +24,12 @@ fermement.
 ```bash
 chmod +x kill_brave.sh
 ./kill_brave.sh
+# ou alors executer le fichier avec double clique:
+gcc -o ~/Bureau/stop-brave/kill_brave wrapper.c
+chmod +x kill_brave
+# vous pouvez maintennant double clic sur le fichier kill_brave
 ```
+
 
 1. **Recherche des processus "brave"**  
    Le script vérifie si des processus se nomment exactement "brave".
